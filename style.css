@@ -1,24 +1,3 @@
-p {
-  font-size: 14px;
-  line-height: 20px;
-  font-family: 'Lato', sans-serif;
-}
-
-h1 {
-  font-size: 26px;
-  line-height: 22px;
-}
-
-h2 {
-  font-size: 20px;
-  line-height: 22px;
-}
-
-.center {
-  width: 1100px;
-  margin: 0 auto;
-}
-
 #navbar {
   list-style-type: none;
   margin: 0;
@@ -26,6 +5,11 @@ h2 {
   overflow: hidden;
   box-shadow: 0px 0px 0px #282828, 0px -8px 0px #282828;
   background-color: #b8bdc4;
+}
+
+.main {
+  width: 1100px;
+  margin: 0 auto;
 }
 
 #navbar>li {
@@ -41,60 +25,55 @@ h2 {
   margin-top: 1%;
 }
 
+div#bannertext {
+  align-self: normal;
+}
+
 .banner {
-  width: 1100px;
+  display: grid;
+  grid-template-columns: 690px 300px;
+  font-family: 'Lato', sans-serif;
+  grid-gap: 10px;
+  color: white;
   height: 370px;
-  margin-top: -15px;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
   background: linear-gradient(to bottom, #336699 0%, #009999 100%);
 }
 
-.banner > img {
-  float: left;
-  margin-left: 30px;
-  margin-top: 20px
-}
-
-.banner {
-  color: white;
-}
-
-#bannermain {
-  float: right;
-  margin-right: 100px;
-}
-
-.banner p {
-  float: right;
-  margin-right: 120px;
+#black {
+  height: 25px;
+  padding: 1%;
+  margin: 0 auto;
+  background-color: black;
 }
 
 .slider {
-  font-size: 200px;
-  margin: 50px;
-}
-
-.container > div {
-  font-size: 20px;
-  line-height: 22px;
-  font-family: 'Lato', sans-serif;
-}
-
-.container {
   display: grid;
-  grid-template-rows: 1fr;
-  margin-left: 50px;
+  font-family: 'Lato', sans-serif;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 5%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 2%;
+
+}
+
+.slider>h1 {
+  font-size: 20px;
 }
 
 .footer {
-    text-align: center;
-    color: white;
-    width: 1100px;
-    font-size: 20px;
-    line-height: 22px;
-    font-family: 'Lato',
-    sans-serif;
-    background: linear-gradient(to bottom, #003366 0%, #336699 100%);
-    padding: 20px;
-    padding-bottom: 20px;
-    box-shadow: 2px 0px 2px #282828;
+  text-align: center;
+  color: white;
+  width: 1100px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(to bottom, #003366 0%, #336699 100%);
+  padding: 20px;
+  padding-bottom: 20px;
+  box-shadow: 2px 0px 2px #282828;
 }
