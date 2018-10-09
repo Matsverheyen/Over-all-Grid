@@ -54,11 +54,9 @@ div#bannertext {
   font-family: 'Lato', sans-serif;
   grid-template-columns: repeat(3, auto);
   grid-gap: 5%;
-  justify-content: center;
   align-items: center;
   justify-items: center;
   margin-top: 2%;
-
 }
 
 .slider>h1 {
