@@ -1,4 +1,4 @@
-* {
+p {
   font-size: 14px;
   line-height: 20px;
   font-family: 'Lato', sans-serif;
@@ -9,5 +9,29 @@ h1 {
   line-height: 22px;
 }
 
-div.center {
+.center {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px #282828, 0px -7px 0px #282828;
+  background-color: #b8bdc4;
+}
+
+#navbar > li {
+  color: #647489;
+  float: right;
+  margin: 20px;
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+#logo {
+  margin-left: 30px;
+  margin-top: 1%;
 }
