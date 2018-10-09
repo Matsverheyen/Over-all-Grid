@@ -9,6 +9,11 @@ h1 {
   line-height: 22px;
 }
 
+h2 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
 .center {
   width: 1100px;
   margin: 0 auto;
@@ -23,7 +28,7 @@ h1 {
   background-color: #b8bdc4;
 }
 
-#navbar > li {
+#navbar>li {
   color: #647489;
   float: right;
   margin: 20px;
@@ -58,7 +63,24 @@ h1 {
   margin-right: 100px;
 }
 
-.banner > p {
-    float: right;
-    margin-right: 100px;
+.banner p {
+  float: right;
+  margin-right: 120px;
+}
+
+.slider {
+  font-size: 200px;
+  margin: 50px;
+}
+
+.container > div {
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin-left: 50px;
 }
