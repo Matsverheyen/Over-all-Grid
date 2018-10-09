@@ -7,6 +7,12 @@
   background-color: #b8bdc4;
 }
 
+.nav {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 5%;
+}
+
 .main {
   width: 1100px;
   margin: 0 auto;
@@ -44,6 +50,9 @@ div#bannertext {
 
 #black {
   height: 25px;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 5%;
   padding: 1%;
   margin: 0 auto;
   background-color: black;
