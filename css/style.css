@@ -3,8 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  box-shadow: 0px 0px 0px #282828, 0px -8px 0px #282828;
-  background-color: #b8bdc4;
+  background-image: url(../img/header_bg.png);
 }
 
 .nav {
@@ -64,18 +63,9 @@ div#bannertext {
   justify-content: center;
   align-items: center;
   padding: 1%;
-  background: linear-gradient(to bottom, #336699 0%, #009999 100%);
+  background-image: url(../img/banner_bg.png);
 }
 
-#black {
-  height: 25px;
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  grid-gap: 5%;
-  padding: 1%;
-  margin: 0 auto;
-  background-color: black;
-}
 
 .slider {
   display: grid;
@@ -98,7 +88,7 @@ div#bannertext {
   font-size: 20px;
   line-height: 22px;
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(to bottom, #003366 0%, #336699 100%);
+  background-image: url(../img/footer_bg.png);
   padding: 20px;
   padding-bottom: 20px;
   box-shadow: 2px 0px 2px #282828;
