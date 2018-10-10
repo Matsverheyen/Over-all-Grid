@@ -11,6 +11,19 @@
   display: grid;
   grid-template-columns: repeat(1, auto);
   grid-gap: 5%;
+  display: block;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: block;
+  font-family: 'Lato', sans-serif;
+}
+
+li > a:hover {
+  color: grey;
 }
 
 .main {
