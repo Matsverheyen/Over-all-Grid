@@ -1,23 +1,25 @@
 #navbar {
-  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-image: url(../img/header_bg.png);
 }
 
-.nav {
+div#navcontain {
   display: grid;
-  grid-template-columns: repeat(1, auto);
-  grid-gap: 5%;
-  display: block;
+  grid-template-columns: repeat(7, auto);
+  justify-self: end;
+  align-items: center;
+  grid-gap: 25px;
+  margin-right: 20px;
 }
 
-li a {
+a {
   text-decoration: none;
   color: black;
   font-size: 20px;
-  display: block;
   font-family: 'Lato', sans-serif;
 }
 
@@ -27,7 +29,7 @@ li a {
   border-color: white;
 }
 
-li > a:hover {
+a:hover {
   color: grey;
 }
 
